@@ -189,7 +189,7 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  background-position: auto;
+  background-position: center;
   text-align: center;
   color: white;
   background-attachment: fixed;
