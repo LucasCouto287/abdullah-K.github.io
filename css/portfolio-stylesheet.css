@@ -141,10 +141,6 @@ aside {
 .navbar-default .nav > li.active > a:focus:hover {
   background-color: transparent;
 }
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
-    .header-backgrnd {
-      background-image: url('abdullah-K.github.io/images/dark-universe-background@2x.png');
-   }
 @media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
