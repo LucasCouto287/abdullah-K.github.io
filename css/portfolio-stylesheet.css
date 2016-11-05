@@ -144,6 +144,7 @@ aside {
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
     .header-backgrnd {
       background-image: url('abdullah-K.github.io/images/dark-universe-background@2x.png');
+      background-size: 1388px 767px;
    }
 @media (min-width: 768px) {
   .navbar-default {
