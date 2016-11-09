@@ -43,7 +43,7 @@
         delegate: "a",
         type: "image",
         tLoading: "Loading image %curr%...",
-        mainClass: "mfp-img-mobile",
+        mainClass: "mfp-img-mobile mfp-with-zoom",
         gallery: {
             enabled: !0,
             navigateByImgClick: !0,
@@ -51,6 +51,11 @@
         },
         image: {
             tError: 'Sorry, this image could not be loaded.<br>(click to close)'
+        }
+         zoom: {
+            enabled: true, 
+            duration: 300, // duration of zoom effect
+            easing: 'ease-in-out', // CSS transition effect
         }
     })
 }(jQuery);
