@@ -51,7 +51,7 @@
         },
         image: {
             tError: 'Sorry, this image could not be loaded.<br>(click to close)'
-        }
+        },
          zoom: {
             enabled: true, 
             duration: 300, // duration of zoom effect
