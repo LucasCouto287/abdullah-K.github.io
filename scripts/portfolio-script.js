@@ -56,6 +56,13 @@
             enabled: true, 
             duration: 300, // duration of zoom effect
             easing: 'ease-in-out', // CSS transition effect
+        },
+        callbacks: {
+            change: function() {
+                if (this.isOpen) {
+                    this.wrap.addClass('mfp-open');
+                }
+        }
         }
     })
 }(jQuery);
