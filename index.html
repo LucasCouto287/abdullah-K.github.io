@@ -335,6 +335,19 @@ Updated: October, 2016
             </div>
         </div>
     </section>
+    
+    <div class="modal hide fade" id="WIPModal">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal">×</a>
+            <h3>Welcome,</h3>
+          </div>
+          <div class="modal-body">
+            <p>This website is still not done yet. I am working as quick as possible to finish it. Thank you for your patience.</p>
+          </div>
+          <div class="modal-footer">
+              <a href="#" class="btn">Close</a>
+          </div>
+    </div>
 
     <!-- Project jQuery script (taken from https://github.com/BlackrockDigital/startbootstrap-creative) -->
     <script src="https://cdn.rawgit.com/BlackrockDigital/startbootstrap-creative/master/vendor/jquery/jquery.min.js"></script>
@@ -349,6 +362,11 @@ Updated: October, 2016
     <!--stellar.js script and instantiation (parallax scrolling effect for background image)-->
     <script src="scripts/jquery.stellar.min.js"></script>
     <script src="scripts/stellar-js-callout.js"></script>
-
+    
+    <script type="text/javascript">
+        $(window).load(function(){
+        $('#WIPModal').modal('show');
+    });
+    </script>
 </body>
 </html>
