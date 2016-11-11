@@ -691,3 +691,7 @@ body {
     -moz-backface-visibility:    hidden;
     -ms-backface-visibility:     hidden;
 }
+
+.icon-github-source:hover{
+  font-size:3em;
+}
