@@ -692,6 +692,6 @@ body {
     -ms-backface-visibility:     hidden;
 }
 
-.icon-github-source:hover{
+.icon-github-source:hover, .icon-github-source:active{
   font-size:2.5em;
 }
