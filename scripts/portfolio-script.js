@@ -6,9 +6,6 @@
  */
 !function(a) {
     "use strict";
-    $(window).load(function() {
-	    $(".cssload-loader").fadeOut("slow");;
-    }),
     a("a.page-scroll").bind("click", function(e) {
         var l = a(this);
         a("html, body").stop().animate({
