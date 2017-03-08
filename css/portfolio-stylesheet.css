@@ -13,10 +13,6 @@ a {
     -webkit-transition: all .35s;
     -moz-transition: all .35s
 }
-.navbar-default, .navbar-collapse{
-    border-color: #e7e7e7;
-    background-color: white;
-}
 header,
 header .header-content {
     position: relative;
@@ -159,6 +155,10 @@ aside {
         background-color: transparent;
         border-color: rgba(255, 255, 255, .3);
         /*height: 260px;*/
+    }
+    .navbar-default, .navbar-collapse{
+        border-color: #e7e7e7;
+        background-color: white;
     }
     .navbar-default .navbar-header .navbar-brand {
         color: rgba(255, 255, 255, .7)
