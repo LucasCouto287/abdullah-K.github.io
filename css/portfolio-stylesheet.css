@@ -153,7 +153,8 @@ aside {
 @media (min-width: 768px) {
     .navbar-default {
         background-color: transparent;
-        border-color: rgba(255, 255, 255, .3)
+        border-color: rgba(255, 255, 255, .3);
+        height: 260px;
     }
     .navbar-default .navbar-header .navbar-brand {
         color: rgba(255, 255, 255, .7)
