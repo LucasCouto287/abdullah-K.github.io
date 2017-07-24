@@ -301,6 +301,10 @@ header .header-content .header-content-inner p {
     top: 50%;
     transform: translateY(-50%)
 }
+
+.recent-projects{
+  background-color: #272727;
+}
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-family: Lato, sans-serif;
