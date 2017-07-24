@@ -4,23 +4,23 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  * Original script modified by: Abdullah Khan
  */
-!function(a) {
+!function(jQuery) {
     "use strict";
-    a("a.page-scroll").bind("click", function(b) {
-        var c = a(this);
-        a("html, body").stop().animate({
-            scrollTop: a(c.attr("href")).offset().top - 50
+    jQuery("a.page-scroll").bind("click", function(b) {
+        var c = jQuery(this);
+        jQuery("html, body").stop().animate({
+            scrollTop: jQuery(c.attr("href")).offset().top - 50
         }, 1250, "easeInOutExpo"),
         b.preventDefault()
     }),
-    a("body").scrollspy({
+    jQuery("body").scrollspy({
         target: ".navbar-fixed-top",
         offset: 51
     }),
-    a(".navbar-collapse ul li a").click(function() {
-        a(".navbar-toggle:visible").click()
+    jQuery(".navbar-collapse ul li a").click(function() {
+        jQuery(".navbar-toggle:visible").click()
     }),
-    a("#mainNav").affix({
+    jQuery("#mainNav").affix({
         offset: {
             top: 100
         }
@@ -39,29 +39,5 @@
         duration: 600,
         scale: .3,
         distance: "0px"
-    }, 300),
-    a(".popup-gallery").magnificPopup({
-        delegate: "a",
-        type: "image",
-        tLoading: "Loading image %curr%...",
-        mainClass: "mfp-img-mobile mfp-with-zoom",
-        gallery: {
-            enabled: !0,
-            navigateByImgClick: !0,
-            preload: [0, 1]
-        },
-        image: {
-            tError: "Sorry, this image could not be loaded.<br>(click to close)"
-        },
-        zoom: {
-            enabled: !0,
-            duration: 300,
-            easing: "ease-in-out"
-        },
-        callbacks: {
-            change: function() {
-                this.isOpen && this.wrap.addClass("mfp-open")
-            }
-        }
-    })
+    }, 300)
 }(jQuery);
