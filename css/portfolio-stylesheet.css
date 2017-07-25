@@ -660,9 +660,9 @@ img::-moz-selection {
     animation-fill-mode: both;
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
-    -ms-backface-visibility: hidden
+    -ms-backface-visibility: hidden;
 }
 .icon-github-source:active,
 .icon-github-source:hover {
-    font-size: 2.5em
+    font-size: 1.6em;
 }
