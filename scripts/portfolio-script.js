@@ -42,15 +42,3 @@
     }, 300)
 }(jQuery);
 
-
-//prevent page scroll and bounce effect for iOS Safari users
-var scroll = function(e) {
-    // compute state
-    if (stopScrollX || stopScrollY) {
-        e.preventDefault();
-        e.stopPropagation();
-        window.scroll(scrollToX, scrollToY);
-    }
-}
-
-document.addEventListener('mousewheel', scroll, false);
