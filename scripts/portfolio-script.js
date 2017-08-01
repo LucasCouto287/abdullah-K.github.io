@@ -44,6 +44,13 @@
 
 
 //prevent page scroll and bounce effect for iOS Safari users
-document.ontouchmove = function(event){
-    event.preventDefault();
+var scroll = function(e) {
+    // compute state
+    if (stopScrollX || stopScrollY) {
+        e.preventDefault();
+        e.stopPropagation();
+        window.scroll(scrollToX, scrollToY);
+    }
 }
+
+document.addEventListener('mousewheel', scroll, false);
