@@ -27,7 +27,8 @@ html {
 body {
     font-family: 'PT Sans', sans-serif;
     webkit-tap-highlight-color: #222;
-    overflow-x: hidden;
+    overflow: hidden;
+    overflow-y: auto;
 }
 hr {
     border-color: #4097ef;
