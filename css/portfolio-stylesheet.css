@@ -26,7 +26,8 @@ html {
 }
 body {
     font-family: 'PT Sans', sans-serif;
-    webkit-tap-highlight-color: #222
+    webkit-tap-highlight-color: #222;
+    overflow-x: hidden;
 }
 hr {
     border-color: #4097ef;

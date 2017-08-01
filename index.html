@@ -3,7 +3,7 @@
 <!--
 Abdullah Khan,
 Personal Website,
-Last updated: July, 2017
+Last updated: August, 2017
 -->
 
 <html lang="en">
@@ -48,6 +48,42 @@ Last updated: July, 2017
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!-- Temporary style declarations for marquee "WORK IN PROGRESS" text -->
+    <style>
+        .scrolling-text-left{
+            margin:0;
+            letter-spacing: 4px;
+             -moz-transform:translateX(100%);
+             -webkit-transform:translateX(100%);
+             transform:translateX(100%);
+
+             -moz-animation: scroll-left 10s linear infinite;
+             -webkit-animation: scroll-left 10s linear infinite;
+             animation: scroll-left 10s linear infinite;
+        }
+
+        @-moz-keyframes scroll-left {
+            0%   { -moz-transform: translateX(100%); }
+            100% { -moz-transform: translateX(-100%); }
+        }
+        @-webkit-keyframes scroll-left {
+             0%   { -webkit-transform: translateX(100%); }
+             100% { -webkit-transform: translateX(-100%); }
+        }
+        @keyframes scroll-left {
+            0%   {
+             -moz-transform: translateX(100%);
+             -webkit-transform: translateX(100%);
+             transform: translateX(100%);
+        }
+             100% {
+             -moz-transform: translateX(-100%);
+             -webkit-transform: translateX(-100%);
+             transform: translateX(-100%);
+        }
+    }
+    </style>
 </head>
 
 <body id="page-top">
@@ -247,7 +283,7 @@ Last updated: July, 2017
     <!-- Recent project pictures -->
     <section role="section" class="recent-projects no-padding">
         <div class="container-fluid">
-          <h3 class="text-faded">WORK IN PROGRESS</h3>
+          <h3 class="text-faded scrolling-text-left">WORK IN PROGRESS</h3>
         </div>
     </section>
 
