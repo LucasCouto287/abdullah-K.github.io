@@ -41,3 +41,9 @@
         distance: "0px"
     }, 300)
 }(jQuery);
+
+
+//prevent page scroll and bounce effect for iOS Safari users
+document.ontouchmove = function(event){
+    event.preventDefault();
+}
