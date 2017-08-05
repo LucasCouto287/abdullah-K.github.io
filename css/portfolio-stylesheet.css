@@ -668,3 +668,15 @@ img::-moz-selection {
 .icon-github-source:hover {
     font-size: 1.6em;
 }
+
+::-webkit-scrollbar, ::-webkit-scrollbar-corner {
+  background: #333333;
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-button {
+  display: none;
+}
+::-webkit-scrollbar-thumb {
+  background: #797979;
+}
