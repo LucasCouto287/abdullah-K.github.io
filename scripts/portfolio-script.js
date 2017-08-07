@@ -1,10 +1,10 @@
-/*!
- * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- * Original script modified by: Abdullah Khan
- */
+// portfolio-script.js
+
+
+// script to implement scrollReveal, scrollspy.
+// also has a tiny function to pass some options to stellar.js
 !function(jQuery) {
+  
     "use strict";
     jQuery("a.page-scroll").bind("click", function(b) {
         var c = jQuery(this);
@@ -25,6 +25,12 @@
             top: 100
         }
     }),
+    //this calls Stellar.JS and passes in a few options to modify the parallax effect
+    jQuery(window).stellar({
+        horizontalScrolling: false,
+        verticalOffset: 0,
+        horizontalOffset: 0
+    }),
     window.sr = ScrollReveal(),
     sr.reveal(".sr-icons", {
         duration: 600,
@@ -41,4 +47,3 @@
         distance: "0px"
     }, 300)
 }(jQuery);
-

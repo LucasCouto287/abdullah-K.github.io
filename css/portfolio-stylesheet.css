@@ -1,10 +1,3 @@
-/*!
- * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- * Original stylesheet modified by: Abdullah Khan
- */
-
 .text-white {
     color: #f9f9f9;
 }
@@ -50,11 +43,7 @@ a:hover {
 a:active {
     text-decoration: underline
 }
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2,h3,h4,h5,h6 {
     font-family: Ubuntu, sans-serif
 }
 h1 {
@@ -270,24 +259,6 @@ header .header-content .header-content-inner p {
 .service-box p {
     margin-bottom: 0
 }
-.portfolio-box {
-    position: relative;
-    display: block;
-    max-width: 650px;
-    margin: 0 auto
-}
-.portfolio-box .portfolio-box-caption {
-    color: #fff;
-    opacity: 0;
-    display: block;
-    background: rgba(64, 151, 239, .9);
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    transition: all .35s
-}
 .btn-default.active,
 .btn-default:active,
 .btn-primary.active,
@@ -296,43 +267,8 @@ header .header-content .header-content-inner p {
 .open>.dropdown-toggle.btn-primary {
     background-image: none
 }
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%)
-}
-
 .recent-projects{
   background-color: #272727;
-}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-family: Lato, sans-serif;
-    padding: 0 15px
-}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 14px
-}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 18px
-}
-.portfolio-box:hover .portfolio-box-caption {
-    opacity: 1
-}
-.portfolio-box:focus {
-    outline: 0
-}
-@media (min-width: 768px) {
-    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-        font-size: 16px
-    }
-    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-        font-size: 22px
-    }
 }
 .call-to-action h2 {
     margin: 0 auto 20px
@@ -668,7 +604,6 @@ img::-moz-selection {
 .icon-github-source:hover {
     font-size: 1.6em;
 }
-
 ::-webkit-scrollbar, ::-webkit-scrollbar-corner {
   background: #333333;
   width: 10px;
