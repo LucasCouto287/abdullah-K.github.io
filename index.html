@@ -245,15 +245,72 @@ Source code & stuff:
         <div class="container text-center">
             <h2 class="section-heading">Portfolio</h2>
             <hr class="primary">
-            <p class="text-muted">Below are a few of my favorite projects. (ignore the pictures, they are just temporary. I will update this section soon)</p>
+            <p class="text-muted">Below are a few of my most favorite, biggest, and "famous" projects.</p>
         </div>
     </aside>
 
     <!-- Recent project pictures -->
     <section class="recent-projects no-padding">
         <div class="container-fluid">
-          <!-- temporary marquee element, to be removed very soon... -->
-          <marquee class="text-faded" style="font-size: 24px;">WORK IN PROGRESS</marquee>
+          <div id="portfolio-pictures" class="row cover">
+            <div class="container">
+            <div class="row portfolio-projects"> <!-- Two project row-->
+              <div class="col-lg-6"> <!--1st side project -->
+                <div class="row">
+                  <div class="col-sm-5 text-center">
+                    <h4 class="portfolio-projects--title">Facial Recognition</h4>
+                    <p class="portfolio-projects--desc">A real-time facial detection and recognition program in Python.</p>
+                    <p class="portfolio-projects--desc">Python, OpenCV, Numpy</p>
+                    <a target="_blank" class=" portfolio-projects--btn" href="http://khanabdullah.com/projects/face-recognition" role="button">View Project</a>
+                  </div>
+                  <div class="col-sm-7 text-center">
+                    <img class="portfolio-projects--image" src="./images/project-facerecog.png">
+                   </div>
+                 </div>
+              </div>
+              <div class="col-lg-6"> <!--2nd side project -->
+                <div class="row">
+                  <div class="col-sm-5 text-center pull-right-sm"><!--flipped on small, unflipped on large-->
+                    <h4 class="portfolio-projects--title">CollabCanvas</h4>
+                    <p class="portfolio-projects--desc">An online canvas on which users can draw on together, in real-time.</p>
+                    <p class="portfolio-projects--desc">Node.js, Socket.IO, p5.js</p>
+                    <a target="_blank" class=" portfolio-projects--btn" href="http://khanabdullah.com/projects/collab-canvas" role="button">View Project</a>
+                  </div>
+                  <div class="col-sm-7 text-center pull-right-sm"><!--flipped on small, unflipped on large-->
+                    <img class="img-rounded portfolio-projects--image" src="./images/project-collabcanvas.png">
+                  </div>
+                </div>
+              </div>
+            </div><!--end Two project row-->
+
+            <div class="row portfolio-projects"> <!-- Opposite Two project row-->
+              <div class="col-lg-6"> <!--1st side project -->
+                <div class="row">
+                  <div class="col-sm-5 text-center">
+                    <h4 class="portfolio-projects--title">Weather App</h4>
+                    <p class="portfolio-projects--desc">A weather app to display local weather based on your IP address.</p>
+                    <p class="portfolio-projects--desc">jQuery, Wunderground API</p>
+                    <a target="_blank" class=" portfolio-projects--btn" href="https://codepen.io/abdullah-k/full/oZqZRY/" role="button">View Project</a>
+                  </div>
+                  <div class="col-sm-7 text-center">
+                    <img class="img-rounded portfolio-projects--image" src="./images/project-weatherapp.png">
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6"> <!--2nd side project -->
+                <div class="row">
+                  <div class="col-sm-5 text-center pull-right-sm"><!--flipped on small, unflipped on large-->
+                    <h4 class="portfolio-projects--title">Quote Machine</h4>
+                    <p class="portfolio-projects--desc">A "generator" which fetches random quotes using the Forismatoc API.</p>
+                    <p class="portfolio-projects--desc">jQuery, Forismatic API</p>
+                    <a target="_blank" class=" portfolio-projects--btn" href="https://codepen.io/abdullah-k/full/ZLqVMN" role="button">View Project</a>
+                  </div>
+                  <div class="col-sm-7 text-center pull-right-sm"><!--flipped on small, unflipped on large-->
+                    <img class="img-rounded portfolio-projects--image" src="./images/project-quotemachine.png">
+                  </div>
+                </div>
+              </div>
+            </div><!--end Opposite Two project row-->
         </div>
     </section>
 
@@ -294,25 +351,7 @@ Source code & stuff:
         </div>
     </section>
 
-    <!-- Work In Progress (WIP) modal. Pops up when the page loads. To be removed when the website is complete.-->
-    <div class="modal fade" id="WIPModal">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header" style="background-color: #2258d8;">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-                <h3 class="modal-title text-white">Hello!</h3>
-              </div>
-              <div class="modal-body">
-                <p>This website is not complete, yet. I am working as quick as possible to get it done. Thank you for your patience!</p>
-              </div>
-                <!-- /.modal-content -->
-    </div>
-              <!-- /.modal-dialog -->
-  </div>
-        <!-- /.modal -->
-</div>
+<!-- End Of Content -->
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
@@ -327,13 +366,5 @@ Source code & stuff:
     <!--stellar.min.js and a new script which passess in a few stellar.js options (to modify the parallax scrolling effect for header background image)-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar.js/0.6.2/jquery.stellar.min.js"></script>
     <script src="scripts/stellar-js-callout.js"></script>
-
-    <script type="text/javascript">
-        //this function shows the "work in progress" modal (WIPModal) when the page is first opened and loaded
-        //To be removed when this website is complete
-        $(document).ready(function(){
-            $("#WIPModal").modal('show');
-        });
-    </script>
 </body>
 </html>

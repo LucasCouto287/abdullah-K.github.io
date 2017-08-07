@@ -680,3 +680,86 @@ img::-moz-selection {
 ::-webkit-scrollbar-thumb {
   background: #797979;
 }
+.centered {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.break {
+    clear: both;
+    margin-top: 10px;
+}
+@media (min-width: 768px) {
+    .pull-right-sm {
+        float: right !important;
+    }
+    .pull-left-sm {
+        float: left !important;
+    }
+}
+@media (min-width: 992px) {
+    .pull-right-d {
+        float: right !important;
+    }
+    .pull-left-md {
+        float: left !important;
+    }
+}
+@media (min-width: 1200px) {
+    .pull-right-lg {
+        float: right !important;
+    }
+    .pull-left-lg {
+        float: left !important;
+    }
+}
+#portfolio-pictures{
+  background: #272727;
+  color: rgb(190, 190, 190);
+}
+#portfolio-pictures h2 {
+    padding-bottom: 1.25em;
+}
+@media screen and (min-width: 768px) {
+    .portfolio-projects {
+        margin-top: 0.625em;
+    }
+}
+.portfolio-projects--title {
+    margin-top: 0.9375em;
+}
+@media screen and (min-width: 768px) {
+    .portfolio-projects--title {
+        margin-top: 20%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .portfolio-projects--title {
+        margin-top: 5%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .portfolio-projects--desc {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+}
+.portfolio-projects--btn {
+    background: rgba(120, 120, 120, 0.3);
+    transition: 0.4s;
+    color: rgb(190, 190, 190);
+    border: 2px solid rgb(90, 90, 90);
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 1.25em;
+}
+.portfolio-projects--btn:hover {
+    background: rgba(190, 190, 190,0.3);
+    color: #f0f0e6;
+    text-decoration: none;
+}
+.portfolio-projects--image {
+    margin-bottom: 1.875em;
+    width: 100%;
+    padding-top: 5%;
+}
